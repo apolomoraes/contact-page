@@ -1,7 +1,7 @@
-<h1 align="center">Card Form</h1>
+<h1 align="center">Contact Page</h1>
 
 <p align="center">
-Formulário de cartão de crédito.
+Página de Contatos.
 </p>
 
 <p align="center">
@@ -26,4 +26,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-- Desafio #boraCodar 13
+- Desafio #boraCodar 16

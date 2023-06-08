@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="container">
+    <nav class="flex items-center">
+      <h2>Meus contatos</h2>
+
+      <ul class="flex items-center">
+        <li>
+          <ion-icon name="add"></ion-icon>
+        </li>
+
+        <li>
+          <ion-icon name="pencil"></ion-icon>
+        </li>
+
+        <li>
+          <ion-icon name="trash"></ion-icon>
+        </li>
+      </ul>
+
+    </nav>
+
+    <form>
+      <div class="input-wrapper flex items-center">
+        <label class="sr-only" for="filter">Busque por nome ou por dados de contato</label>
+        <ion-icon name="search-outline"></ion-icon>
+        <input type="text" id="filter" placeholder="Busque por nome ou por dados de contato...">
+      </div>
+    </form>
+  </header>
+
+  <section class="contacts container">
+    <div class="list-wrapper flex">
+      <div class="letter purple">A</div>
+      <ul>
+        <li class="person flex">
+          <img src="https://randomuser.me/api/portraits/men/5.jpg" alt="Foto do contato">
+          <div class="contact">
+            <h3>Abraão</h3>
+            <p>(32) 98765-4321</p>
+          </div>
+        </li>
+
+        <li class="person flex">
+          <img src="https://randomuser.me/api/portraits/men/20.jpg" alt="Foto do contato">
+          <div class="contact">
+            <h3>Arnold</h3>
+            <p>(32) 98765-4321</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="list-wrapper flex">
+      <div class="letter green">B</div>
+      <ul>
+        <li class="person flex">
+          <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Foto do contato">
+          <div class="contact">
+            <h3>Bruno</h3>
+            <p>(32) 98765-4321</p>
+          </div>
+        </li>
+
+        <li class="person flex">
+          <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="Foto do contato">
+          <div class="contact">
+            <h3>Bernado</h3>
+            <p>(32) 98765-4321</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="list-wrapper flex">
+      <div class="letter purple-bold">C</div>
+      <ul>
+        <li class="person flex">
+          <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Foto do contato">
+          <div class="contact">
+            <h3>Carlos</h3>
+            <p>(32) 98765-4321</p>
+          </div>
+        </li>
+
+        <li class="person flex">
+          <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Foto do contato">
+          <div class="contact">
+            <h3>Carla</h3>
+            <p>(32) 98765-4321</p>
+          </div>
+        </li>
+
+        <li class="person flex">
+          <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Foto do contato">
+          <div class="contact">
+            <h3>Cátia</h3>
+            <p>(32) 98765-4321</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="list-wrapper flex">
+      <div class="letter blue">D</div>
+      <ul>
+        <li class="person flex">
+          <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Foto do contato">
+          <div class="contact">
+            <h3>Daniela</h3>
+            <p>(32) 98765-4321</p>
+          </div>
+        </li>
+
+        <li class="person flex">
+          <img src="https://randomuser.me/api/portraits/women/19.jpg" alt="Foto do contato">
+          <div class="contact">
+            <h3>Debora</h3>
+            <p>(32) 98765-4321</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
